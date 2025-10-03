@@ -9,21 +9,41 @@ const log = new Rlog();
 const rssList = [
     'atom.xml', // Do not delate this. This could keep your history rss.
     // Edit the list below 
-    'https://ravelloh.top/feed/atom.xml',
-    'https://www.ithome.com/rss/',
-    'https://sspai.com/feed'
+    'http://10.1.4.100:1200/zaobao/realtime/zfinance',
+    'http://10.1.4.100:1200/nytimes/dual',
+    'http://10.1.4.100:1200/bbc/world-asia',
+    'http://10.1.4.100:1200/infzm/1',
+    'http://10.1.4.100:1200/newyorker/latest',
+    'http://10.1.4.100:1200/yicai/headline',
+    'http://10.1.4.100:1200/cankaoxiaoxi/column/diyi',
+    'http://10.1.4.100:1200/huanqiu/news/world',
+    'http://10.1.4.100:1200/nikkei/news/news',
+    //'http://10.1.4.100:1200/people',
+    'http://10.1.4.100:1200/udn/news/breakingnews/6',
+    'http://10.1.4.100:1200/inewsweek/finance',
+    //'http://10.1.4.100:1200/oncc/money18/weainvest',
+    'http://10.1.4.100:1200/oncc/money18/ipo',
+    //'http://10.1.4.100:1200/oncc/money18/int',
+    'http://10.1.4.100:1200/cnbc/rss',
+    'http://10.1.4.100:1200/caixinglobal/latest',  
+    'http://10.1.4.100:1200/now/news',
+    'http://10.1.4.100:1200/dw/rss/rss-en-all',
+    'http://10.1.4.100:1200/sputniknews',
+    'http://10.1.4.100:1200/foreignaffairs/rss',
+    'http://10.1.4.100:1200/tvb/news',
+    //'http://10.1.4.100:1200/ce/district'
 ];
 
 const storagePath = './';
 const authorINFO = {
-    name: 'RavelloH',
+    name: 'RSS',
     email: 'ravelloh@outlook.com',
-    link: 'https://ravelloh.top/',
+    link: 'https://www.b23.ink',
 };
 
 const feed = new Feed({
-    title: "RSS聚合器 - RSS aggregator",
-    description: '聚合多种rss源',
+    title: "RSS ",
+    description: 'Web3',
     id: 'http://ravelloh.top/',
     link: 'http://ravelloh.top/',
     language: 'zh',
